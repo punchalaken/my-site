@@ -1,0 +1,17 @@
+.Navbar {
+    height: var(--navbar-height);
+
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    text-decoration: none;
+    list-style: none;
+
+    .active {
+        color: var(--second-background-color);
+    }
+}

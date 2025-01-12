@@ -1,0 +1,19 @@
+.PageLoader {
+    width: 100%;
+    height: calc(100% - 60px);
+
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--main-background-color);
+
+    z-index: 1000;
+
+    .PreloadGif {
+        width: 100px;
+        height: 100px;
+    }
+}
